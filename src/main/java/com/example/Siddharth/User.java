@@ -1,11 +1,14 @@
 package com.example.Siddharth;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+
 public class User {
     private int id;
     private String name;
     private String country;
     private int age;
-
     public User(int id, String name, String country, int age) {
         this.id = id;
         this.name = name;
@@ -44,4 +47,6 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
+
+
 }
